@@ -5,7 +5,7 @@ description: Regenerate expected output in failing shelltestrunner v3 fixtures (
 
 # Regenerating shelltestrunner fixtures
 
-When a change to hledger's output rendering (alignment, padding, column positions) breaks many fixtures in `hledger/test/`, use [tools/regen-shelltests.py](../../tools/regen-shelltests.py) to bulk-update them.
+When a change to hledger's output rendering (alignment, padding, column positions) breaks many fixtures in `hledger/test/`, use [tools/regen-shelltests.py](../../../tools/regen-shelltests.py) to bulk-update them.
 
 The script's default mode is **whitespace-only**: it overwrites a test's expected stdout with the actual output only when the difference is purely whitespace (column shifts). Anything else — added/removed lines, changed numbers, different commodities — is left for human review. This makes it safe to run on a batch of failing tests without losing in-flight content edits.
 
