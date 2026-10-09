@@ -1,5 +1,9 @@
 # hledger
 
+**Fork status**
+
+[![Fork code quality](https://app.codacy.com/project/badge/Grade/cc0b1d6d00924241888947fbef27ef65?branch=main)](https://app.codacy.com/gh/ryanduguid/hledger/dashboard)
+
 ## Robust, intuitive plain text accounting
 [![license](https://img.shields.io/badge/license-GPLv3+-brightgreen.svg)](https://www.gnu.org/licenses/gpl.html)
 [![on hackage](https://img.shields.io/hackage/v/hledger.svg?label=hackage&colorB=green)](https://hackage.haskell.org/package/hledger)
